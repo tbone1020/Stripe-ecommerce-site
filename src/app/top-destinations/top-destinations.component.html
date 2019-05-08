@@ -1,0 +1,10 @@
+<section id="top-destinations" class="top-destinations">
+  <h2 class="top-destinations__header">Top Destinations in Japan</h2>
+  <h3 class="top-destinations__sub-header">Explore a different way to travel</h3>
+  <article class="top-destinatons__destinations">
+    <app-destination *ngFor="let destination of topDestinations" 
+      destinationImagePath="{{destination.imagePath}}"
+      destinationAltText="{{destination.altText}}"
+      destinationName="{{destination.name}}"></app-destination>
+  </article>
+</section>

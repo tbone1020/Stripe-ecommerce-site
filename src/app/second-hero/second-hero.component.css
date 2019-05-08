@@ -1,0 +1,16 @@
+.second-hero {
+  background: #e9ebf0;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.second-hero__header {
+  font-size: 50px;
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+
+.second-hero__sub-header {
+  font-size: 30px;
+  font-weight: 300;
+}
