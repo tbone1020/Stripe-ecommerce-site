@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('stripe-ecommerce-site App', () => {
+describe('project-name App', () => {
   let page: AppPage;
 
   beforeEach(() => {
