@@ -1,0 +1,18 @@
+.destination {
+  position: relative;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.destination__img {
+  width: 100%;
+  max-height: 
+}
+
+.destination__name {
+  color: white;
+  font-size: 35px;
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+}

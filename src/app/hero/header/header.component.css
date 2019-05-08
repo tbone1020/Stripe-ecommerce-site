@@ -1,0 +1,14 @@
+header {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px 0;
+  position: relative;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  z-index: 9;
+}
+
+.header__logo {
+  font-weight: 700;
+  font-size: 30px;
+}

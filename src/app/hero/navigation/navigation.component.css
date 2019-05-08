@@ -1,0 +1,15 @@
+.navigation__links {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: 45px;
+}
+.navigation__list {
+  align-self: center;
+  text-align: center;
+  justify-self: end;
+}
+.navigation__link {
+  color: white;
+  text-decoration: none;
+  height: 45px;
+}

@@ -1,0 +1,21 @@
+.hero {
+  background-image: url(/assets/images/shinjuku.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 600px;
+  color: white;
+  position: relative;
+}
+
+.hero:after {
+  content: '';
+  background: rgba(76, 80, 95, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
