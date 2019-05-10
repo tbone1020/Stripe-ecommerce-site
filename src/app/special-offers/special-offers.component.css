@@ -1,0 +1,13 @@
+.special-offer {
+  
+}
+
+.special-offer__header {
+
+}
+
+.special-offer__offers {
+  display: grid;
+  grid-column-gap: 15px;
+  grid-template-columns: repeat(3, 1fr);
+}

@@ -1,10 +1,10 @@
-<section id="second-hero" class="second-hero">
-  <h2 class="second-hero__header">We are Travel Japan</h2>
-  <h3 class="second-hero__sub-header">Check our our best Promotion Tours</h3>
-  <article class="second-hero__text">
-    <app-text  
-    icon=""
-    header=""
-    text=""></app-text>
+<section id="we-sell" class="we-sell">
+  <h2 class="we-sell__header">We are Travel Japan</h2>
+  <h3 class="we-sell__sub-header">Check out what we sell</h3>
+  <article class="we-sell__text">
+    <app-text *ngFor="let text of weAreJapanText"
+    icon="{{text.icon}}"
+    header="{{text.header}}"
+    text="{{text.text}}"></app-text>
   </article>
 </section>

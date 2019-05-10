@@ -1,16 +1,24 @@
-.second-hero {
+.we-sell {
   background: #e9ebf0;
   padding: 80px 0;
   text-align: center;
 }
 
-.second-hero__header {
+.we-sell__header {
   font-size: 50px;
   font-weight: 500;
   padding-bottom: 5px;
 }
 
-.second-hero__sub-header {
+.we-sell__sub-header {
   font-size: 30px;
   font-weight: 300;
+}
+
+.we-sell__text {
+  display: grid;
+  max-width: 1200px;
+  margin: auto;
+  padding: 100px 10px;
+  grid-template-columns: 1fr 1fr 1fr;
 }

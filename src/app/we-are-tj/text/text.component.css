@@ -1,0 +1,23 @@
+.we-sell-individual {
+  display: grid;
+  grid-template-columns: .5fr 1.5fr;
+}
+
+.we-sell-individual__icon {
+  /*align-self: center;*/
+  font-size: 55px;
+}
+
+.we-sell-individual__text-wrapper {
+  text-align: left;
+}
+
+.we-sell-individual__header {
+  font-weight: bold;
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+.we-sell-individual__text {
+  line-height: 25px;
+}
