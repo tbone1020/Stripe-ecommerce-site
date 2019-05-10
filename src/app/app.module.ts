@@ -18,6 +18,7 @@ import { HeaderComponent } from './hero/header/header.component';
 import { DestinationComponent } from './top-destinations/destination/destination.component';
 import { WeAreTjComponent } from './we-are-tj/we-are-tj.component';
 import { TextComponent } from './we-are-tj/text/text.component';
+import { OfferComponent } from './special-offers/offer/offer.component';
 
 
 @NgModule({
@@ -37,7 +38,8 @@ import { TextComponent } from './we-are-tj/text/text.component';
     HeaderComponent,
     DestinationComponent,
     WeAreTjComponent,
-    TextComponent
+    TextComponent,
+    OfferComponent
   ],
   imports: [
     BrowserModule
