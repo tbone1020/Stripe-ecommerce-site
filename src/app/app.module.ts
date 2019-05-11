@@ -19,6 +19,7 @@ import { DestinationComponent } from './top-destinations/destination/destination
 import { WeAreTjComponent } from './we-are-tj/we-are-tj.component';
 import { TextComponent } from './we-are-tj/text/text.component';
 import { OfferComponent } from './special-offers/offer/offer.component';
+import { SecondHeroComponent } from './second-hero/second-hero.component';
 
 
 @NgModule({
@@ -30,6 +31,7 @@ import { OfferComponent } from './special-offers/offer/offer.component';
     FooterComponent,
     SubscribeComponent,
     NewsComponent,
+    SecondHeroComponent,
     HotPromotionComponent,
     ExperiencesComponent,
     AboutUsComponent,

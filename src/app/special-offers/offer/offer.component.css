@@ -32,6 +32,7 @@
 .offer__price {
   background: #10a8e5;
   color: white;
+  cursor: pointer;
   font-weight: bold;
   font-size: 16px;
   border: 0;

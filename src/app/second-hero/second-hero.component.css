@@ -1,16 +1,33 @@
 .second-hero {
-  background: #e9ebf0;
+  background: url("/assets/images/matsumoto-castle.png");
+  background-attachment: fixed;
+  background-size: cover;
   padding: 150px 0 50px;
   text-align: center;
+  position: relative;
+  height: 400px;
 }
-
-.second-hero__header {
+.second-hero:after {
+  content: '';
+  background: rgba(76, 80, 95, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
+.second-hero__icon {
   font-size: 50px;
-  font-weight: 500;
-  padding-bottom: 5px;
+  padding-right: 10px;
 }
-
-.second-hero__sub-header {
-  font-size: 30px;
-  font-weight: 300;
+.second-hero__header {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 90px;
+  font-weight: 200;
+  position: relative;
+  z-index: 9;
+  top: 110px;
 }
