@@ -1,13 +1,19 @@
 .special-offer {
-  
+  padding: 150px 0;
 }
 
 .special-offer__header {
-
+  font-size: 50px;
+  font-weight: 500;
+  padding-bottom: 5px;
+  text-align: center;
 }
 
 .special-offer__offers {
   display: grid;
-  grid-column-gap: 15px;
+  max-width: 1200px;
+  margin: auto;
+  padding: 70px 10px 0;
+  grid-column-gap: 25px;
   grid-template-columns: repeat(3, 1fr);
 }

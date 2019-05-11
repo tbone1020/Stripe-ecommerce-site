@@ -5,10 +5,13 @@
   <figcaption class="offer__description-wrapper">
     <h2 class="offer__description">{{description}}</h2>
     <h4 class="offer__location">
-      <i class="fas fa-map-marker-alt"></i>
+      <i class="offer__icon fas fa-map-marker-alt"></i>
       {{location}}
     </h4>
-    <h4 class="offer__duration">{{duration}}</h4>
+    <h4 class="offer__duration">
+      <i class="offer__icon far fa-clock"></i>
+      {{duration}}
+    </h4>
     <button class="offer__price">{{price}}</button>    
   </figcaption>
 </article>
