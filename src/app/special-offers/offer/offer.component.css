@@ -1,5 +1,5 @@
 .offer {
-
+  border: 1px solid #e9ebf0;
 }
 .offer__image-wrapper {
 
@@ -8,17 +8,35 @@
   width: 100%;
 }
 .offer__description-wrapper {
-
+  width: 90%;
+  margin: auto;
+  padding: 30px 0;
 }
 .offer__description {
-
+  font-weight: bold;
+  padding-bottom: 30px;
+  font-size: 18px;
 }
-.offer__location {
 
+.offer__icon { 
+  color: #10a8e5;
+  padding-right: 5px;
+  display: inline-block;
+  width: 20px;
+  text-align: center;
 }
-.offer__duration {
-
+.offer__location, .offer__duration { 
+  font-weight: 500;
+  padding-bottom: 20px;
 }
 .offer__price {
-
+  background: #10a8e5;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  border: 0;
+  height: 40px;
+  width: 150px;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
 }
