@@ -15,13 +15,13 @@ export class NewsComponent implements OnInit {
       newsTitle: "Japan begins testing the world\'s fastest bullet train",
       sourceLink: 'https://www.popularmechanics.com/technology/infrastructure/a27457041/japans-new-bullet-train-can-hit-224-mph/'
     },{
-      image: '',
-      newsTitle: '',
-      briefDesctiption: ''
+      image: 'bullet-train.png',
+      newsTitle: "Japan begins testing the world\'s fastest bullet train",
+      briefDesctiption:'https://www.popularmechanics.com/technology/infrastructure/a27457041/japans-new-bullet-train-can-hit-224-mph/'    
     },{
-      image: '',
-      newsTitle: '',
-      briefDesctiption: ''
+      image: 'bullet-train.png',
+      newsTitle: "Japan begins testing the world\'s fastest bullet train",
+      briefDesctiption:'https://www.popularmechanics.com/technology/infrastructure/a27457041/japans-new-bullet-train-can-hit-224-mph/'    
     }];
   }
 

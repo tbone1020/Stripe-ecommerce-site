@@ -1,3 +1,10 @@
 <section id="news" class="news">
   <h2 class="news__header">Japan's Latest Nesws</h2>
+  <article class="news__news-source"> 
+    <app-news-source *ngFor="let news of newsSources"
+    image={{news.image}}
+    newsTitle={{news.newsTitle}}
+    sourceLink={{news.sourceLink}}
+    ></app-news-source>
+  </article>
 </section>
