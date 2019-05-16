@@ -21,6 +21,8 @@ import { TextComponent } from './we-are-tj/text/text.component';
 import { OfferComponent } from './special-offers/offer/offer.component';
 import { SecondHeroComponent } from './second-hero/second-hero.component';
 import { NewsSourceComponent } from './news/news-source/news-source.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
+import { CopyrightComponent } from './footer/copyright/copyright.component';
 
 
 @NgModule({
@@ -43,7 +45,9 @@ import { NewsSourceComponent } from './news/news-source/news-source.component';
     WeAreTjComponent,
     TextComponent,
     OfferComponent,
-    NewsSourceComponent
+    NewsSourceComponent,
+    ContactUsComponent,
+    CopyrightComponent
   ],
   imports: [
     BrowserModule

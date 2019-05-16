@@ -1,0 +1,31 @@
+.contact-us {
+  background: #4c505f;
+  height: 150px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+}
+
+.contact-us__header,
+.contact-us__phone-text,
+.contact-us__link {
+  color: white;
+  align-self: center;
+}
+.contact-us__link {
+  background: #10a8e5;
+  -webkit-border-radius: 45px;
+  border-radius: 45px;
+  text-decoration: none;
+  display: block;
+  width: 160px;
+  margin: auto;
+  height: 45px;
+  font-weight: 500;
+  line-height: 45px;
+}
+.contact-us__header,
+.contact-us__phone {
+  font-weight: bold;
+}
+
