@@ -1,6 +1,5 @@
 .we-sell-individual {
-  display: grid;
-  grid-template-columns: .5fr 1.5fr;
+  padding: 20px 0;
 }
 
 .we-sell-individual__icon {
@@ -20,4 +19,20 @@
 
 .we-sell-individual__text {
   line-height: 25px;
+}
+
+@media screen and (min-width: 650px) {
+  .we-sell-individual__icon {
+    padding-bottom: 10px;
+  }
+}
+@media screen and (min-width: 769px) {
+
+}
+@media screen and (min-width: 960px) {
+  .we-sell-individual {
+    display: grid;
+    grid-template-columns: .5fr 1.5fr;
+    padding: 0;
+  }  
 }

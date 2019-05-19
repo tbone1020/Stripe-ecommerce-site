@@ -23,6 +23,7 @@ import { SecondHeroComponent } from './second-hero/second-hero.component';
 import { NewsSourceComponent } from './news/news-source/news-source.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { CopyrightComponent } from './footer/copyright/copyright.component';
+import { FooterNavComponent } from './footer/footer-nav/footer-nav.component';
 
 
 @NgModule({
@@ -47,7 +48,8 @@ import { CopyrightComponent } from './footer/copyright/copyright.component';
     OfferComponent,
     NewsSourceComponent,
     ContactUsComponent,
-    CopyrightComponent
+    CopyrightComponent,
+    FooterNavComponent
   ],
   imports: [
     BrowserModule

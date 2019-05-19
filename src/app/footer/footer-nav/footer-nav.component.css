@@ -1,0 +1,18 @@
+.footer-nav {
+  text-align: right;
+  align-self: center;
+}
+
+.footer-nav__navigation {
+  list-style-type: none;
+}
+
+.footer-nav__list {
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 30px;
+}
+.footer-nav__link {
+  color: white;
+  text-decoration: none;
+}
