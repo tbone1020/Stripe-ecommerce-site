@@ -1,5 +1,5 @@
 .news-source {
-
+  margin-bottom: 25px;
 }
 
 .news-source__img {
@@ -30,4 +30,20 @@
   text-decoration: none;
   width: 170px;
   border-radius: 25px;
+}
+
+@media screen and (min-width: 650px) {
+
+}
+
+@media screen and (min-width: 769px) {
+  .news-source {
+
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .news-source {
+    margin-bottom: 0;
+  }
 }

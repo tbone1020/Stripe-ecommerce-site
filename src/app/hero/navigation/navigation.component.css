@@ -1,15 +1,32 @@
 .navigation__links {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  height: 45px;
+  display: none;
 }
 .navigation__list {
   align-self: center;
   text-align: center;
-  justify-self: end;
+}
+.navigation__icon {
+  font-size: 40px;
+  position: absolute;
+  right: 15px;
+  top: 15px;
 }
 .navigation__link {
   color: white;
   text-decoration: none;
   height: 45px;
+}
+
+@media screen and (min-width: 769px) {
+  .navigation__list {
+    justify-self: end;
+  } 
+  .navigation__icon {
+    display: none;
+  }
+  .navigation__links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 45px;
+  } 
 }

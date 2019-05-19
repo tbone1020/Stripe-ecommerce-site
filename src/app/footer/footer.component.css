@@ -1,4 +1,13 @@
 footer {
   background: #10a8e5;
-  height: 500px;
+  color: white;
+  padding: 65px 0;
+}
+
+.footer__wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 10px;
 }
