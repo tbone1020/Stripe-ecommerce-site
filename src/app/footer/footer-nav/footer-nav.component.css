@@ -1,6 +1,7 @@
 .footer-nav {
-  text-align: right;
-  align-self: center;
+  display: none;
+  text-align: center;
+  line-height: 50px;
 }
 
 .footer-nav__navigation {
@@ -18,5 +19,8 @@
 }
 
 @media screen and (min-width: 768px) {
-  
+  .footer-nav {
+    text-align: right;
+    display: block;
+  }
 }
