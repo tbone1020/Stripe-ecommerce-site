@@ -6,10 +6,10 @@
   text-align: center;
 }
 .navigation__icon {
-  font-size: 40px;
+  font-size: 30px;
   position: absolute;
   right: 15px;
-  top: 15px;
+  top: 25px;
 }
 .navigation__link {
   color: white;
