@@ -26,7 +26,7 @@
     grid-template-columns: 1fr 1fr;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .we-sell__text {
     display: grid;
     max-width: 1200px;

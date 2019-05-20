@@ -17,7 +17,7 @@
   height: 45px;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .navigation__list {
     justify-self: end;
   } 

@@ -31,3 +31,7 @@
   z-index: 9;
   top: 70px;
 }
+
+@media screen and (min-width: 960px) {
+  
+}

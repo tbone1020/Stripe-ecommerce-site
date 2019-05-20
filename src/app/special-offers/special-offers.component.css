@@ -27,7 +27,7 @@
   }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .special-offer__offers {
     max-width: 1200px;
     padding: 70px 10px 0;

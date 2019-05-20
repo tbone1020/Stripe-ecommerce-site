@@ -4,7 +4,6 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  height: 600px;
   color: white;
   position: relative;
 }
@@ -18,4 +17,9 @@
   height: 100%;
   width: 100%;
   z-index: 0;
+}
+@media screen and (min-width: 769px) {
+  .hero {
+    height: 600px;
+  }
 }
