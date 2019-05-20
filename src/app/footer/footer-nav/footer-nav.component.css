@@ -10,9 +10,13 @@
 .footer-nav__list {
   display: inline-block;
   vertical-align: middle;
-  padding-right: 30px;
+  padding-left: 30px;
 }
 .footer-nav__link {
   color: white;
   text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  
 }

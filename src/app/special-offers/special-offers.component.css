@@ -9,7 +9,7 @@
 }
 
 .special-offer__header {
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 500;
   padding-bottom: 35px;
   text-align: center;
@@ -27,13 +27,16 @@
   }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .special-offer__offers {
     max-width: 1200px;
     padding: 70px 10px 0;
     margin-bottom: 0;
     grid-template-columns: repeat(3, 1fr);
   }  
+  .special-offer__header {
+    font-size: 50px;
+  }
   .special-offer {
     padding: 150px 0;
   }

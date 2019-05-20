@@ -8,7 +8,7 @@
 }
 
 .we-sell-individual__text-wrapper {
-  text-align: left;
+  text-align: center;
 }
 
 .we-sell-individual__header {
@@ -26,8 +26,10 @@
     padding-bottom: 10px;
   }
 }
-@media screen and (min-width: 769px) {
-
+@media screen and (min-width: 768px) {
+  .we-sell-individual__text-wrapper {
+    text-align: left;
+  }
 }
 @media screen and (min-width: 960px) {
   .we-sell-individual {
