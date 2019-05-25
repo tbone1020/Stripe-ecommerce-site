@@ -10,6 +10,11 @@ export class NavigationComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
+  }
+
+  menuIconClickEvent() {
+    console.log("Clicked hamburger icon");
   }
 
 }
