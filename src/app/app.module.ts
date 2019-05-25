@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { RouterModule } from '@angular/router';
 
 
 import { AppComponent } from './app.component';
@@ -52,7 +53,25 @@ import { FooterNavComponent } from './footer/footer-nav/footer-nav.component';
     FooterNavComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule.forRoot([
+      {
+        path: '',
+        component: AppComponent
+      },
+      {
+        path: 'aboutus',
+        component: AppComponent
+      },
+      {
+        path: 'specialOffers',
+        component: AppComponent
+      },
+      {
+        path: 'experiences',
+        component: AppComponent
+      },
+    ])
   ],
   providers: [],
   bootstrap: [AppComponent]
