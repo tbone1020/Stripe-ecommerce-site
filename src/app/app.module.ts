@@ -68,6 +68,10 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
         component: AboutUsComponent 
       },
       { 
+        path: 'packages/:packageCode', 
+        component: HomeComponent 
+      },
+      { 
         path: '**', 
         component: PageNotFoundComponent 
       }
