@@ -26,6 +26,7 @@ import { ContactUsComponent } from './home/contact-us/contact-us.component';
 import { CopyrightComponent } from './footer/copyright/copyright.component';
 import { FooterNavComponent } from './footer/footer-nav/footer-nav.component';
 import { HomeComponent } from './home/home.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 
 @NgModule({
@@ -52,26 +53,19 @@ import { HomeComponent } from './home/home.component';
     ContactUsComponent,
     CopyrightComponent,
     FooterNavComponent,
-    HomeComponent
+    HomeComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot([
-      {
-        path: '',
-        component: AppComponent
+      { 
+        path: '', 
+        component: HomeComponent 
       },
-      {
-        path: 'aboutus',
-        component: AppComponent
-      },
-      {
-        path: 'specialOffers',
-        component: AppComponent
-      },
-      {
-        path: 'experiences',
-        component: AppComponent
+      { 
+        path: 'aboutus', 
+        component: AboutUsComponent 
       },
     ])
   ],
