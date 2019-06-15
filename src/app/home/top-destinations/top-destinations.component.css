@@ -1,0 +1,57 @@
+.top-destinations {
+  text-align: center;
+  color: #4c505f;
+  padding: 40px 0;
+}
+
+.top-destinatons__destinations {
+  margin: auto;
+  display: block;
+  width: 90%;
+}
+
+.top-destinations__header {
+  font-size: 30px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+.top-destinations__sub-header {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.top-destinatons__destinations {
+  margin: auto;
+  width: 90%;
+  padding: 40px 0;
+}
+
+
+@media screen and (min-width: 640px) {
+  .top-destinations {
+    padding: 150px 0;
+  }
+
+  .top-destinatons__destinations {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 25px;
+    max-width: 1200px;
+    padding: 50px 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .top-destinations__header {
+    font-size: 50px;
+  }
+
+  .top-destinations__sub-header {
+    font-size: 30px;
+  }
+
+  .top-destinatons__destinations {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

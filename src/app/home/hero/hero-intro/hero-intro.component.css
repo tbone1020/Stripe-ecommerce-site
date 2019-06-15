@@ -1,0 +1,58 @@
+.intro-text {
+  margin: auto;
+  position: relative;
+  text-align: center;
+  width: 90%;
+  z-index: 9;
+  padding: 50px 0;
+}
+
+.intro-text__header {
+  font-weight: 700;
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+.intro-text__sub-header {
+  font-weight: 500;
+  font-size: 20px;
+}
+.intro-text__text {
+  line-height: 25px;
+}
+.intro-text__contact-button {
+  background: #10a8e5;
+  border: 0;
+  cursor: pointer;
+  border-radius: 25px;
+  height: 50px;
+  line-height: 49px;
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  width: 170px;
+  margin: 40px 0 0;
+}
+
+
+@media screen and (min-width: 768px) {
+  .intro-text { 
+    text-align: left;
+    top: 100px;
+    max-width: 1200px;
+    padding: 0 10px;
+  }
+  .intro-text__header {
+    font-size: 70px;
+  }
+  .intro-text__sub-header {
+    font-size: 50px;
+  }
+  .intro-text__text {
+    max-width: 500px; 
+    line-height: 25px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  
+}

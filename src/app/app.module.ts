@@ -67,6 +67,10 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
         path: 'aboutus', 
         component: AboutUsComponent 
       },
+      { 
+        path: '**', 
+        component: PageNotFoundComponent 
+      }
     ])
   ],
   providers: [],

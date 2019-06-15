@@ -1,0 +1,25 @@
+.hero {
+  background-image: url(/assets/images/view-mt-fuji.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: white;
+  position: relative;
+}
+
+.hero:after {
+  content: '';
+  background: rgba(76, 80, 95, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
+@media screen and (min-width: 769px) {
+  .hero {
+    height: 600px;
+  }
+}
