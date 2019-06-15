@@ -10,6 +10,8 @@
 
 .special-offer__header {
   font-size: 30px;
+  width: 90%;
+  margin: auto;
   font-weight: 500;
   padding-bottom: 35px;
   text-align: center;
