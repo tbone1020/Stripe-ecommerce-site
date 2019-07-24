@@ -1,0 +1,35 @@
+.navigation__links {
+  display: none;
+}
+.navigation__list {
+  align-self: center;
+  text-align: center;
+}
+.navigation__icon {
+  font-size: 30px;
+  position: absolute;
+  right: 15px;
+  top: 25px;
+}
+.navigation__link {
+  color: white;
+  text-decoration: none;
+  height: 45px;
+}
+.navigation__link.navigation__link-dark {
+  color: #4c505f;
+}
+
+@media screen and (min-width: 768px) {
+  .navigation__list {
+    justify-self: end;
+  } 
+  .navigation__icon {
+    display: none;
+  }
+  .navigation__links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 45px;
+  } 
+}
