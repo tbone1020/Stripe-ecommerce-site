@@ -9,7 +9,7 @@ import { AppComponent } from '../../app.component';
 
 export class NavigationComponent implements OnInit {
 
-  @Input() navigationState: string;
+  @Input() navigationState: string = "white";
 
   navigationList: Object[] = [{
     text: "Home",
