@@ -30,10 +30,10 @@ export class NavigationComponent implements OnInit {
   }
 
   ngOnInit() {
-    console.log(`The state of the navigation is ${this.navigationState}`);
+
   }
 
-  menuIconClickEvent() {
+  toggleMobileNavigationMenu() {
     
   }
 

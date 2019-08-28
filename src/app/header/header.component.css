@@ -14,8 +14,13 @@ header {
   font-size: 30px;
 }
 
+.header__logo a {
+  color: white;
+  text-decoration: none;
+}
+
 @media screen and (min-width: 768px) {
   header {
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 50% 50%;
   }
 }
