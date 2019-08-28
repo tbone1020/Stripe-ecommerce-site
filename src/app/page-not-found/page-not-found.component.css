@@ -8,6 +8,7 @@
 .page-not-found__header {
   font-size: 100px;
   font-weight: 500;
+  padding: 130px 0 0;
 }
 
 .page-not-found__sub-header {
@@ -36,7 +37,7 @@
 
 @media screen and (min-width: 769px) {
   .page-not-found {
-    padding: 150px 0;
+    padding: 0 0 150px;
   }
   .page-not-found__sub-header {
     font-size: 25px;

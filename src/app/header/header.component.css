@@ -9,7 +9,8 @@ header {
 }
 
 .header__logo {
-  font-weight: 700;
+  font-weight: 700;    
+  text-align: left;
   line-height: 45px;
   font-size: 30px;
 }
