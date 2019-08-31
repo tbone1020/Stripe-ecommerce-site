@@ -29,6 +29,7 @@ import { HomeComponent } from './home/home.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { TravelDealsComponent } from './travel-deals/travel-deals.component';
 import { DealComponent } from './travel-deals/deal/deal.component';
+import { DealsHeaderComponent } from './travel-deals/deals-header/deals-header.component';
 
 
 @NgModule({
@@ -58,7 +59,8 @@ import { DealComponent } from './travel-deals/deal/deal.component';
     HomeComponent,
     PageNotFoundComponent,
     TravelDealsComponent,
-    DealComponent
+    DealComponent,
+    DealsHeaderComponent
   ],
   imports: [
     BrowserModule,
