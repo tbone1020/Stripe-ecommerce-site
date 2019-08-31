@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MockDealApiService } from '../core/deals/mock-deal-api.service';
 
 @Component({
   selector: 'app-travel-deals',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TravelDealsComponent implements OnInit {
 
-  constructor() { }
+  constructor(private mockDeal: MockDealApiService) {}
 
   ngOnInit() {
   }

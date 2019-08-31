@@ -1,2 +1,3 @@
-export class IDeal {
+export abstract class IDeal {
+  getDeals(): Object[];
 }

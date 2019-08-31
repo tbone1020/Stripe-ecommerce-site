@@ -1,9 +1,12 @@
 import { Injectable } from '@angular/core';
+import { IDeal } from './ideal';
 
 @Injectable({
   providedIn: 'root'
 })
-export class MockDealApiService {
+export class MockDealApiService implements IDeal {
 
-  constructor() { }
+  deals: Object[] = null;
+
+  constructor() {}
 }
