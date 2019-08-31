@@ -27,6 +27,9 @@ import { CopyrightComponent } from './footer/copyright/copyright.component';
 import { FooterNavComponent } from './footer/footer-nav/footer-nav.component';
 import { HomeComponent } from './home/home.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { TravelDealsComponent } from './travel-deals/travel-deals.component';
+import { DealComponent } from './travel-deals/deal/deal.component';
+import { DealsHeaderComponent } from './travel-deals/deals-header/deals-header.component';
 
 
 @NgModule({
@@ -54,26 +57,29 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     CopyrightComponent,
     FooterNavComponent,
     HomeComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    TravelDealsComponent,
+    DealComponent,
+    DealsHeaderComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot([
-      { 
-        path: '', 
-        component: HomeComponent 
+      {
+        path: '',
+        component: HomeComponent
       },
-      { 
-        path: 'aboutus', 
-        component: AboutUsComponent 
+      {
+        path: 'aboutus',
+        component: AboutUsComponent
       },
-      { 
-        path: 'packages/:packageCode', 
-        component: HomeComponent 
+      {
+        path: 'travel-deals',
+        component: TravelDealsComponent
       },
-      { 
-        path: '**', 
-        component: PageNotFoundComponent 
+      {
+        path: '**',
+        component: PageNotFoundComponent
       }
     ])
   ],

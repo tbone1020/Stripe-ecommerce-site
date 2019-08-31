@@ -1,6 +1,6 @@
 import { Component, OnInit, NgModule, Input} from '@angular/core';
 import { AppComponent } from '../../app.component';
- 
+
 @Component({
   selector: 'app-navigation',
   templateUrl: './navigation.component.html',
@@ -18,11 +18,11 @@ export class NavigationComponent implements OnInit {
     text: "About Us",
     link: "aboutus"
   },{
-    text: "Special Offers",
-    link: "offers"
+    text: "Travel Deals",
+    link: "travel-deals"
   },{
-    text: "Experiences",
-    link: "experiences"
+    text: "Hotel Deals",
+    link: "hotel-deals"
   }]
 
   constructor() {
@@ -34,7 +34,7 @@ export class NavigationComponent implements OnInit {
   }
 
   toggleMobileNavigationMenu() {
-    
+
   }
 
 }
