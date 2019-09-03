@@ -8,7 +8,7 @@ import { MockDealApiService } from '../core/services/deals/mock-deal-api.service
 })
 export class TravelDealsComponent implements OnInit {
 
-  dealsList: Object[] = null;
+  dealsList: Object[] = [{}];
 
   constructor(private deals: MockDealApiService) {}
 
