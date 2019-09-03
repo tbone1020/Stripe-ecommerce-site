@@ -4,7 +4,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  padding: 150px 0;
   color: white;
 }
 .deals__hero:after {
@@ -16,8 +15,11 @@
   width: 100%;
   height: 100%;
 }
+.deals__headers {
+  padding: 130px 0;
+}
 .deals__header {
-  font-size: 50px;
+  font-size: 50px;;
   font-weight: bold;
 }
 .deals__sub-header {

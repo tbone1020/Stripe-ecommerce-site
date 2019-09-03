@@ -8,15 +8,13 @@ import { MockDealApiService } from '../core/services/deals/mock-deal-api.service
 })
 export class TravelDealsComponent implements OnInit {
 
-  dealsList: Object[] = [{}];
+  dealsList: Object[] = null;
 
   constructor(private deals: MockDealApiService) {}
 
   ngOnInit() {
     this.deals.getJSON().subscribe(dealsList => {
-      for (let i = 0; i < dealsList.deals.length; i++) {
-          console.table(dealsList.deals[i]);
-      }
+      this.dealsList = dealsList.data;
     })
   }
 
