@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MockDealApiService } from '../core/deals/mock-deal-api.service';
+import { MockDealApiService } from '../core/services/deals/mock-deal-api.service';
 
 @Component({
   selector: 'app-travel-deals',
@@ -8,9 +8,16 @@ import { MockDealApiService } from '../core/deals/mock-deal-api.service';
 })
 export class TravelDealsComponent implements OnInit {
 
-  constructor(private mockDeal: MockDealApiService) {}
+  dealsList: Object[] = [{}];
+
+  constructor(private deals: MockDealApiService) {}
 
   ngOnInit() {
+    this.deals.getJSON().subscribe(dealsList => {
+      for (let i = 0; i < dealsList.deals.length; i++) {
+          console.table(dealsList.deals[i]);
+      }
+    })
   }
 
 }

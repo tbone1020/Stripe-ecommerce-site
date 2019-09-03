@@ -14,7 +14,7 @@ export class HeaderComponent implements OnInit {
   }
 
   ngOnInit() {
-    console.log(`The Input is ${this.colorOfNavigation}`);
+    
   }
 
 }

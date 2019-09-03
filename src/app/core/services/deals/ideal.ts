@@ -1,3 +1,6 @@
+
+import { Observable } from 'rxjs';
+
 export abstract class IDeal {
-  getDeals(): Object[];
+  abstract getJSON(): Observable<any>;
 }
