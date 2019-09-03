@@ -31,6 +31,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { TravelDealsComponent } from './travel-deals/travel-deals.component';
 import { DealComponent } from './travel-deals/deal/deal.component';
 import { DealsHeaderComponent } from './travel-deals/deals-header/deals-header.component';
+import { PricePipe } from './core/pipes/price.pipe';
 
 
 @NgModule({
@@ -61,7 +62,8 @@ import { DealsHeaderComponent } from './travel-deals/deals-header/deals-header.c
     PageNotFoundComponent,
     TravelDealsComponent,
     DealComponent,
-    DealsHeaderComponent
+    DealsHeaderComponent,
+    PricePipe
   ],
   imports: [
     BrowserModule,
