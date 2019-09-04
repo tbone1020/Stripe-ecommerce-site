@@ -13,7 +13,7 @@ import { SubscribeComponent } from './subscribe/subscribe.component';
 import { NewsComponent } from './news/news.component';
 import { HotPromotionComponent } from './hot-promotion/hot-promotion.component';
 import { ExperiencesComponent } from './experiences/experiences.component';
-import { AboutUsComponent } from './about-us/about-us.component';
+import { AboutUsComponent } from './components/about-us/about-us.component';
 import { NavigationComponent } from './header/navigation/navigation.component';
 import { HeroIntroComponent } from './components/home/hero/hero-intro/hero-intro.component';
 import { HeaderComponent } from './header/header.component';
@@ -27,10 +27,10 @@ import { ContactUsComponent } from './components/home/contact-us/contact-us.comp
 import { CopyrightComponent } from './footer/copyright/copyright.component';
 import { FooterNavComponent } from './footer/footer-nav/footer-nav.component';
 import { HomeComponent } from './components/home/home.component';
-import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-import { TravelDealsComponent } from './travel-deals/travel-deals.component';
-import { DealComponent } from './travel-deals/deal/deal.component';
-import { DealsHeaderComponent } from './travel-deals/deals-header/deals-header.component';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { TravelDealsComponent } from './components/travel-deals/travel-deals.component';
+import { DealComponent } from './components/travel-deals/deal/deal.component';
+import { DealsHeaderComponent } from './components/travel-deals/deals-header/deals-header.component';
 import { PricePipe } from './core/pipes/price.pipe';
 
 
