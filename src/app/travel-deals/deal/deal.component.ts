@@ -14,8 +14,7 @@ export class DealComponent implements OnInit {
 
   ngOnInit() {
     this.deals.getJSON().subscribe(dealsList => {
-      this.dealsList = dealsList.data;
-      console.log(this.dealsList);
+      this.dealsList = dealsList.deals;
     });
   }
 
