@@ -10,8 +10,10 @@ export class MockDealApiService implements IDeal {
 
   constructor(private http: HttpClient) {}
 
-  getJSON(): Observable<any> {
-    return this.http.get('./assets/mock-json-tests/mock-deals.json');
+  async getJSON(): Observable<any> {
+    const response = await this.http.get('./assets/mock-json-tests/mock-deals.json').toPromise();
+    console.log(response);
+    return;
   }
 
 }
