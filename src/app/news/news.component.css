@@ -19,7 +19,7 @@
 @media screen and (min-width: 650px) {
   .news__news-source {
     padding: 50px 10px 0;
-    max-width: 1200px;
+    max-width: 1040px;
     display: grid;
     grid-column-gap: 25px;
   }

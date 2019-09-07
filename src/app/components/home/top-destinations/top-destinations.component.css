@@ -37,7 +37,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 25px;
-    max-width: 1200px;
+    max-width: 1040px;
     padding: 50px 10px;
   }
 }

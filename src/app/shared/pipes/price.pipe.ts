@@ -6,7 +6,8 @@ import { Pipe, PipeTransform } from '@angular/core';
 export class PricePipe implements PipeTransform {
 
   transform(value: string, ...args: any[]): any {
-    return `$${parseInt(value)}`;
+    console.log(value)
+    return value;
   }
 
 }
