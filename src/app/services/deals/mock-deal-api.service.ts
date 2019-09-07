@@ -7,13 +7,13 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class MockDealApiService implements IDeal {
+  private base: string = './assets/mock-json-tests/mock-deals.json';
 
   constructor(private http: HttpClient) {}
 
-  async getJSON(): Observable<any> {
-    const response = await this.http.get('./assets/mock-json-tests/mock-deals.json').toPromise();
-    console.log(response);
-    return;
+  async getJSON(): Promise<any> {
+    const response = await this.http.get(this.base).toPromise();
+    return response;
   }
 
 }

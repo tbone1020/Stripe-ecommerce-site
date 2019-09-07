@@ -29,6 +29,8 @@ import { TravelDealsComponent } from './components/travel-deals/travel-deals.com
 import { DealComponent } from './components/travel-deals/deal/deal.component';
 import { DealsHeaderComponent } from './components/travel-deals/deals-header/deals-header.component';
 import { PricePipe } from './shared/pipes/price.pipe';
+import { IDeal } from './services/deals/ideal';
+import { MockDealApiService } from './services/deals/mock-deal-api.service';
 
 
 @NgModule({
@@ -81,7 +83,10 @@ import { PricePipe } from './shared/pipes/price.pipe';
       }
     ])
   ],
-  providers: [],
+  providers: [{
+    provide: IDeal,
+    useClass: MockDealApiService
+  }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
