@@ -12,11 +12,10 @@ export class DealComponent implements OnInit {
 
   constructor(private deals: MockDealApiService) {}
 
-  ngOnInit() {
-    this.deals.getJSON().subscribe(dealsList => {
-      this.dealsList = dealsList.deals;
-      console.log(this.dealsList);
-    });
+  async ngOnInit() {
+    const response = await this.deals.getJSON();
+    this.dealsList = response.deals;
+    console.log(this.dealsList);
   }
 
   grabJSON(): void {
