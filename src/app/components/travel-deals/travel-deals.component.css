@@ -1,5 +1,14 @@
 .deals__top-deals {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 15px;
+  max-width: 1040px;
+  margin: auto;
+}
+
+.top-deals__header {
+  font-size: 40px;
+  max-width: 1040px;
+  margin: auto;
+  padding: 30px 0;
 }

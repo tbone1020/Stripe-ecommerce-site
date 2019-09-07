@@ -1,5 +1,5 @@
 header {
-  max-width: 1200px;
+  max-width: 1040px;
   margin: 0 auto;
   padding: 15px 10px;
   position: relative;
@@ -9,7 +9,7 @@ header {
 }
 
 .header__logo {
-  font-weight: 700;    
+  font-weight: 700;
   text-align: left;
   line-height: 45px;
   font-size: 30px;

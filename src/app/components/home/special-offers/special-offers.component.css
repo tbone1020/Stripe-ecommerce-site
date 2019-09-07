@@ -31,11 +31,11 @@
 
 @media screen and (min-width: 768px) {
   .special-offer__offers {
-    max-width: 1200px;
+    max-width: 1040px;
     padding: 70px 10px 0;
     margin-bottom: 0;
     grid-template-columns: repeat(3, 1fr);
-  }  
+  }
   .special-offer__header {
     font-size: 50px;
   }

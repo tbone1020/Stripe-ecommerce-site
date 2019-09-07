@@ -17,7 +17,7 @@
 .contact-us__phone {
     display: block;
     padding-bottom: 10px;
-}   
+}
 .contact-us__header, .contact-us__link-wrapper {
     text-align: center;
 }
@@ -45,14 +45,14 @@
 @media screen and (min-width: 960px) {
     .contact-us__phone {
         display: initial;
-    }   
+    }
 }
 @media screen and (min-width: 768px) {
     .contact-us {
         padding: 0;
     }
     .contact-us__wrapper {
-        max-width: 1200px;
+        max-width: 1040px;
         margin: auto;
         padding: 0 10px;
         height: 150px;
@@ -62,7 +62,7 @@
     .contact-us__header,
     .contact-us__phone-text,
     .contact-us__link-wrapper {
-        padding-bottom: 0; 
+        padding-bottom: 0;
     }
 
     .contact-us__header {

@@ -13,7 +13,7 @@ footer {
     padding: 55px 0;
   }
   .footer__wrapper {
-    max-width: 1200px;
+    max-width: 1040px;
     display: grid;
     grid-template-columns: 1fr 2fr;
     padding: 0 10px;

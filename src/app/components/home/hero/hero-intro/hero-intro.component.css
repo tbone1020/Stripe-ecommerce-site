@@ -35,10 +35,10 @@
 
 
 @media screen and (min-width: 768px) {
-  .intro-text { 
+  .intro-text {
     text-align: left;
     top: 100px;
-    max-width: 1200px;
+    max-width: 1040px;
     padding: 0 10px;
   }
   .intro-text__header {
@@ -48,11 +48,11 @@
     font-size: 50px;
   }
   .intro-text__text {
-    max-width: 500px; 
+    max-width: 500px;
     line-height: 25px;
   }
 }
 
 @media screen and (min-width: 960px) {
-  
+
 }

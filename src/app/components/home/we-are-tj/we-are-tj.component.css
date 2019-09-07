@@ -29,7 +29,7 @@
 @media screen and (min-width: 768px) {
   .we-sell__text {
     display: grid;
-    max-width: 1200px;
+    max-width: 1040px;
     margin: auto;
     padding: 100px 10px;
     grid-column-gap: 25px;
