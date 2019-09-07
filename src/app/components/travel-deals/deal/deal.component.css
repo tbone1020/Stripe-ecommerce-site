@@ -1,6 +1,10 @@
 .deal {
   position: relative;
 }
+.deal__image-holder {
+  max-height: 220px;
+  overflow: hidden;
+}
 .deal__image {
   width: 100%;
 }

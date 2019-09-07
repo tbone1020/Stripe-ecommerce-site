@@ -1,6 +1,8 @@
-<figure class="deal" *ngFor="let deal of dealsList">
-  <div class="deal__percentage">{{ deal.percent-off }}</div>
-  <img class="deal__image" src="./assets/images/{{ deal.image }}" alt="">
-  <figcaption class="deal__text">{{ deal.description }}</figcaption>
-  <div class="deal__price">{{ deal.price }}</div>
+<figure class="deal">
+  <div class="deal__percentage">{{ percentOff }}</div>
+  <div class="deal__image-holder">
+    <img class="deal__image" src="./assets/images/{{image }}" alt="">
+  </div>
+  <figcaption class="deal__text">{{description }}</figcaption>
+  <div class="deal__price">{{price | price }}</div>
 </figure>

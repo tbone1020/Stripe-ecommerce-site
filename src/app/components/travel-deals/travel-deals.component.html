@@ -1,5 +1,9 @@
 <app-deals-header></app-deals-header>
 <h3 class="top-deals__header">Top Deals</h3>
 <section class="deals__top-deals">
-    <app-deal></app-deal>
+    <app-deal *ngFor="let deal of dealsList"
+      [description]="deal.description"
+      [price]="deal.price"
+      [percentOff]="deal.percent-off"
+      [image]="deal.image"></app-deal>
 </section>
