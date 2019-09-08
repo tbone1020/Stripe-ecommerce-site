@@ -5,9 +5,19 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class PricePipe implements PipeTransform {
 
+
   transform(value: string, ...args: any[]): any {
-    console.log(value)
-    return value;
+    let priceFormatted = this.formatPrice(value);
+    return priceFormatted;
+  }
+
+  formatPrice(value): string {
+    const priceContainsDecimal = value.toString().indexOf(".") !== -1;
+    if (priceContainsDecimal) {
+      return `$${value}`;
+    }
+
+    return `$${value}.00`
   }
 
 }

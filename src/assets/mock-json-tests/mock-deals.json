@@ -3,7 +3,7 @@
    "description": "Tokyo: 10 days / 9 nights including hotel and flight for two",
    "image": "shibuya-downtown.jpg",
    "percent-off": "50",
-   "price": 1500.99
+   "price": 1500
   },{
    "description": "14 days in Kyoto including flight and hotel",
    "image": "kyoto-tori-thumbnail-offer.png",
@@ -18,7 +18,7 @@
    "description": "7 nights in Osaka & 7 nights in Kyoto including hotel and train tickets",
    "image": "akihabara.jpg",
    "percent-off": 50,
-   "price": 1000.99
+   "price": 1000
   },{
    "description": "7 nights at a Mt. Fuji Hotel.",
    "image": "mt-fuji-thumbnail.png",
