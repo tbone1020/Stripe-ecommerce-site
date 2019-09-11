@@ -1,8 +1,8 @@
 <figure class="deal">
-  <div class="deal__percentage">{{ percentOff | percent }}</div>
+  <div class="deal__percentage">{{ percentOff | addPercent }}</div>
   <div class="deal__image-holder">
     <img class="deal__image" src="./assets/images/{{ image }}" alt="">
   </div>
   <figcaption class="deal__text">{{ description }}</figcaption>
-  <div class="deal__price">{{price | price }}</div>
+  <div class="deal__price">{{ price | price }}</div>
 </figure>

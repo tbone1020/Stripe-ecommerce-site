@@ -1,9 +1,9 @@
-import { PercentPipe } from './percent.pipe';
+import { AddPercentPipe } from './add-percent.pipe';
 
-describe('PercentPipe', () => {
+describe('AddPercentPipe', () => {
   it('Should return number with percent sign', () => {
     // arrange
-    const pipe = new PercentPipe();
+    const pipe = new AddPercentPipe();
 
     // act
     const result = pipe.transform(50);
