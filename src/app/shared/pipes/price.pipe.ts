@@ -6,7 +6,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 export class PricePipe implements PipeTransform {
 
 
-  transform(value: string, ...args: any[]): any {
+  transform(value: any, ...args: any[]): any {
     let priceFormatted = this.formatPrice(value);
     return priceFormatted;
   }
