@@ -1,8 +1,14 @@
 import { PercentPipe } from './percent.pipe';
 
 describe('PercentPipe', () => {
-  it('create an instance', () => {
+  it('Should return number with percent sign', () => {
+    // arrange
     const pipe = new PercentPipe();
-    expect(pipe).toBeTruthy();
+
+    // act
+    const result = pipe.transform(50);
+
+    // assert
+    expect(result).toEqual("50%");
   });
 });
