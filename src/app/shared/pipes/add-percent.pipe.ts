@@ -1,9 +1,9 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
-  name: 'percent'
+  name: 'addPercent'
 })
-export class PercentPipe implements PipeTransform {
+export class AddPercentPipe implements PipeTransform {
 
   transform(value: any, ...args: any[]): any {
     return `${value}%`;

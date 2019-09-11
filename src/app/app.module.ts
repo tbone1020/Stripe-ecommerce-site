@@ -31,6 +31,7 @@ import { DealsHeaderComponent } from './components/travel-deals/deals-header/dea
 import { PricePipe } from './shared/pipes/price.pipe';
 import { IDeal } from './services/deals/ideal';
 import { MockDealApiService } from './services/deals/mock-deal-api.service';
+import { AddPercentPipe } from './shared/pipes/add-percent.pipe';
 
 
 @NgModule({
@@ -59,7 +60,8 @@ import { MockDealApiService } from './services/deals/mock-deal-api.service';
     TravelDealsComponent,
     DealComponent,
     DealsHeaderComponent,
-    PricePipe
+    PricePipe,
+    AddPercentPipe
   ],
   imports: [
     BrowserModule,
