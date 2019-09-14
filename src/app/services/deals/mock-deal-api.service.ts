@@ -1,12 +1,12 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { IDeal } from './ideal';
+import { ADeal } from './adeal';
 import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
-export class MockDealApiService implements IDeal {
+export class MockDealApiService implements ADeal {
   private base: string = './assets/mock-json-tests/mock-deals.json';
 
   constructor(private http: HttpClient) {}

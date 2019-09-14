@@ -29,7 +29,7 @@ import { TravelDealsComponent } from './components/travel-deals/travel-deals.com
 import { DealComponent } from './components/travel-deals/deal/deal.component';
 import { DealsHeaderComponent } from './components/travel-deals/deals-header/deals-header.component';
 import { PricePipe } from './shared/pipes/price.pipe';
-import { IDeal } from './services/deals/ideal';
+import { ADeal } from './services/deals/adeal';
 import { MockDealApiService } from './services/deals/mock-deal-api.service';
 import { AddPercentPipe } from './shared/pipes/add-percent.pipe';
 
@@ -86,7 +86,7 @@ import { AddPercentPipe } from './shared/pipes/add-percent.pipe';
     ])
   ],
   providers: [{
-    provide: IDeal,
+    provide: ADeal,
     useClass: MockDealApiService
   }],
   bootstrap: [AppComponent]
