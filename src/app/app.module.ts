@@ -31,6 +31,7 @@ import { DealsHeaderComponent } from './components/travel-deals/deals-header/dea
 import { PricePipe } from './shared/pipes/price.pipe';
 import { ADeal } from './services/deals/adeal';
 import { MockDealApiService } from './services/deals/mock-deal-api.service';
+import { DealApiService } from './services/deals/deal-api.service';
 import { AddPercentPipe } from './shared/pipes/add-percent.pipe';
 
 
@@ -87,7 +88,7 @@ import { AddPercentPipe } from './shared/pipes/add-percent.pipe';
   ],
   providers: [{
     provide: ADeal,
-    useClass: MockDealApiService
+    useClass: DealApiService
   }],
   bootstrap: [AppComponent]
 })

@@ -1,3 +1,3 @@
 export abstract class ADeal {
-  abstract getJSON(): Promise<any>;
+  public abstract async getDealList(): Promise<any>;
 }
