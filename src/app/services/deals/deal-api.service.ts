@@ -1,20 +1,20 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { ADeal } from './adeal';
-import { Observable } from 'rxjs';
+import { DealList } from '../../shared/models/deal-list.model';
 
 @Injectable({
   providedIn: 'root'
 })
-export class MockDealApiService implements ADeal {
+export class DealApiService implements ADeal {
   private base: string = './assets/mock-json-tests/mock-deals.json';
 
   constructor(private http: HttpClient) { }
 
   async getDealList(): Promise<any> {
     const response = await this.http.get(this.base).toPromise();
+    const deallist = new DealList(response);
     return response;
-    // return new instance of deal list.
   }
 
 }
