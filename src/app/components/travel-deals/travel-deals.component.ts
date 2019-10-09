@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { DealApiService } from '../../services/deals/packagedDeals/deal-api.service';
+import { DealApiService } from '../../services/deals/deal-api.service';
 
 @Component({
   selector: 'app-travel-deals',
