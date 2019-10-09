@@ -30,8 +30,8 @@ import { DealComponent } from './components/travel-deals/deal/deal.component';
 import { DealsHeaderComponent } from './components/travel-deals/deals-header/deals-header.component';
 import { PricePipe } from './shared/pipes/price.pipe';
 import { ADeal } from './services/deals/adeal';
-import { MockDealApiService } from './services/deals/mock-deal-api.service';
-import { DealApiService } from './services/deals/deal-api.service';
+import { MockDealApiService } from './services/deals/packagedDeals/mock-deal-api.service';
+import { DealApiService } from './services/deals/packagedDeals/deal-api.service';
 import { AddPercentPipe } from './shared/pipes/add-percent.pipe';
 
 

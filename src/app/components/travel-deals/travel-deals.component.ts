@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { DealApiService } from '../../services/deals/deal-api.service';
+import { DealApiService } from '../../services/deals/packagedDeals/deal-api.service';
 
 @Component({
   selector: 'app-travel-deals',
@@ -9,12 +9,17 @@ import { DealApiService } from '../../services/deals/deal-api.service';
 export class TravelDealsComponent implements OnInit {
 
   dealsList: Object[];
+  hotelDealsList: Object[];
 
   constructor(private deals: DealApiService) {}
 
   async ngOnInit() {
-    const response = await this.deals.getDealList();
-    this.dealsList = response.deals;
+    try {
+      const response = await this.deals.getDealList();
+      this.dealsList = response.deals;
+    } catch(e) {
+      console.log(e);
+    }
   }
 
 }
