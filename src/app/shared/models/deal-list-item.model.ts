@@ -9,6 +9,6 @@ export class DealListItem {
       ...data
     }
 
-    console.log(defaults);
+    // console.log(defaults);
   }
 }
