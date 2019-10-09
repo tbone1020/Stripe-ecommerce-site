@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { ADeal } from '../adeal';
+import { ADeal } from './adeal';
 import { Observable } from 'rxjs';
 
 @Injectable({
@@ -16,5 +16,9 @@ export class MockDealApiService implements ADeal {
     return response;
     // return new instance of deal list.
   }
+
+   async getHotelDealList(): Promise<any> {
+     
+   }
 
 }
