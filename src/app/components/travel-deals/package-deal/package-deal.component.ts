@@ -1,11 +1,11 @@
 import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-deal',
-  templateUrl: './deal.component.html',
-  styleUrls: ['./deal.component.css']
+  selector: 'app-package-deal',
+  templateUrl: './package-deal.component.html',
+  styleUrls: ['./package-deal.component.css']
 })
-export class DealComponent implements OnInit {
+export class PackageDealComponent implements OnInit {
 
   @Input() description: string;
   @Input() percentOff: string;
@@ -15,7 +15,7 @@ export class DealComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {
-    
+
   }
 
 }
