@@ -2,10 +2,13 @@
 <h3 class="top-deals__header">Top Deals</h3>
 <h4 class="top-deals__sub-header">Travel Package Deals</h4>
 <section class="deals__top-deals">
-    <app-deal *ngFor="let deal of dealsList"
+    <app-package-deal *ngFor="let deal of dealsList"
       [description]="deal.description"
       [price]="deal.price"
       [percentOff]="deal.percentOff"
-      [image]="deal.image"></app-deal>
+      [image]="deal.image"></app-package-deal>
 </section>
 <h4 class="top-deals__sub-header">Hotel Package Deals</h4>
+<section class="deals__top-deals">
+  
+</section>
