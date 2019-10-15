@@ -4,7 +4,7 @@ export class PackageDealItem {
   public percentOff: string;
   public image: string;
 
-  constructor(data?: any) {
+  constructor(data: any) {
     this.description = data.description;
     this.price = data.price;
     this.percentOff = data.percentOff;

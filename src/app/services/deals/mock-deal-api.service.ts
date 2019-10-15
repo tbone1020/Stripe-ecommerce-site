@@ -11,14 +11,14 @@ export class MockDealApiService implements ADeal {
 
   constructor(private http: HttpClient) { }
 
-  async getDealList(): Promise<any> {
+  async getPackageDealList(): Promise<any> {
     const response = await this.http.get(this.base).toPromise();
     return response;
     // return new instance of deal list.
   }
 
    async getHotelDealList(): Promise<any> {
-     
+
    }
 
 }

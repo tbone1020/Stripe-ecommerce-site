@@ -1,6 +1,8 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { ADeal } from './adeal';
+import { IPackageDeals } from './interfaces/ipackagedeals';
+import { IHotelDeals } from './interfaces/ihoteldeals';
 import { PackageDealItem } from '../../shared/models/package-deal-item.model';
 import { HotelDealList } from '../../shared/models/hotel-deals-item.model';
 
@@ -12,14 +14,14 @@ export class DealApiService implements ADeal {
 
   constructor(private http: HttpClient) { }
 
-  async getDealList(): Promise<any> {
-    const response = await this.http.get(`${this.base}/mock-deals.json`).toPromise();
+  public async getPackageDealList(): Promise<any> {
+    const response = await this.http.get<IPackageDeals>(`${this.base}/mock-deals.json`).toPromise();
     return response.deals.map(deal => new PackageDealItem(deal));
   }
 
-  // async getHotelDealList(): Promise<any> {
-  //   // const response = await this.http.get(`${this.base}/hotel-deals.json`).toPromise();
-  //   // return response;
-  // }
+  public async getHotelDealList(): Promise<any> {
+    const response = await this.http.get<IHotelDeals>(`${this.base}/hotel-deals.json`).toPromise();
+    return response.deals.map(deal => new HotelDealList(deal));
+  }
 
 }

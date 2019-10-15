@@ -1,4 +1,4 @@
 export abstract class ADeal {
-  public abstract async getDealList(): Promise<any>;
-  public abstract async getHotelDealList(): Promise<any>;
+  public async abstract getPackageDealList(): Promise<any>;
+  public async abstract getHotelDealList(): Promise<any>;
 }
