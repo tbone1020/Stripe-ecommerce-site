@@ -1,7 +1,8 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { ADeal } from './adeal';
-import { DealList } from '../../shared/models/deal-list.model';
+import { PackageDealItem } from '../../shared/models/package-deal-item.model';
+import { HotelDealList } from '../../shared/models/hotel-deals-item.model';
 
 @Injectable({
   providedIn: 'root'
@@ -13,12 +14,11 @@ export class DealApiService implements ADeal {
 
   async getDealList(): Promise<any> {
     const response = await this.http.get(`${this.base}/mock-deals.json`).toPromise();
-    const dealList = new DealList(response);
-    return response;
+    return response.deals.map(deal => new PackageDealItem(deal));
   }
 
   async getHotelDealList(): Promise<any> {
-    const response = await this.http.get(`${this.base}/hotel-deals/json`).toPromise();
+    const response = await this.http.get(`${this.base}/hotel-deals.json`).toPromise();
     return response;
   }
 

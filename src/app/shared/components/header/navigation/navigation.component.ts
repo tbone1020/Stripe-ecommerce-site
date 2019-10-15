@@ -19,9 +19,6 @@ export class NavigationComponent implements OnInit {
   },{
     text: "Travel Deals",
     link: "travel-deals"
-  },{
-    text: "Hotel Deals",
-    link: "hotel-deals"
   }]
 
   constructor() {

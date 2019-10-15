@@ -1,4 +1,4 @@
-export class DealListItem {
+export class HotelDealList {
   public description: string;
   public price: string;
   public percentOff: string;

@@ -26,13 +26,14 @@ import { FooterNavComponent } from './shared/components/footer/footer-nav/footer
 import { HomeComponent } from './components/home/home.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { TravelDealsComponent } from './components/travel-deals/travel-deals.component';
-import { DealComponent } from './components/travel-deals/deal/deal.component';
+import { PackageDealComponent } from './components/travel-deals/package-deal/package-deal.component';
 import { DealsHeaderComponent } from './components/travel-deals/deals-header/deals-header.component';
 import { PricePipe } from './shared/pipes/price.pipe';
 import { ADeal } from './services/deals/adeal';
 import { MockDealApiService } from './services/deals/mock-deal-api.service';
 import { DealApiService } from './services/deals/deal-api.service';
 import { AddPercentPipe } from './shared/pipes/add-percent.pipe';
+import { HotelDealsComponent } from './components/travel-deals/hotel-deals/hotel-deals.component';
 
 
 @NgModule({
@@ -59,10 +60,11 @@ import { AddPercentPipe } from './shared/pipes/add-percent.pipe';
     HomeComponent,
     PageNotFoundComponent,
     TravelDealsComponent,
-    DealComponent,
+    PackageDealComponent,
     DealsHeaderComponent,
     PricePipe,
-    AddPercentPipe
+    AddPercentPipe,
+    HotelDealsComponent
   ],
   imports: [
     BrowserModule,

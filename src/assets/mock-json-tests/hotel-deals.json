@@ -14,7 +14,7 @@
   },{
    "name": "Vessel Inn Ueno",
    "image": "../images/hotels/Vessel-inn-Ueno.jpg",
-   "location": "110-0013 Tokyo Prefecture, Taito-ku Iriya 1-25-6, Japan"
+   "location": "110-0013 Tokyo Prefecture, Taito-ku Iriya 1-25-6, Japan",
    "percentOff": "10",
    "price": 104
   },{
@@ -28,12 +28,12 @@
    "image": "../images/hotels/sotetsu-fresa-inn-osaka.jpg",
    "location": "542-0083 Osaka Prefecture, Osaka, Chuo-ku Higashishinsaibashi 1-12-23, Japan",
    "percentOff": "10",
-   "price": "74",
+   "price": "74"
   },{
    "name": "Doutonbori Crystal Hotel IV",
    "image": "doutonbori-crystal-hotel.jpg",
    "location": "542-0082 Osaka Prefecture, Osaka, Chuo-ku Shimanouchi 1-12-19, Japan",
    "percentOff": "10",
-   "price": "56",
-  },]
+   "price": "56"
+  }]
 }
