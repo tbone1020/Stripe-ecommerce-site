@@ -1,7 +1,7 @@
-import { PackageDealComponent } from './deal.component';
+import { PackageDealComponent } from './package-deal.component';
 
 describe('PackageDealComponent', () => {
   it('Exists', () => {
-    expect(DealComponent).toBeDefined();
+    expect(PackageDealComponent).toBeDefined();
   });
 });
