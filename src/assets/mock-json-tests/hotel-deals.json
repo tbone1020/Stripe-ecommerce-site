@@ -1,37 +1,37 @@
 {
   "deals": [{
    "name": "The B Akasaka",
-   "image": "../images/hotels/b-akasaka.jpg",
+   "image": "./assets/images/hotels/hotels/b-akasaka.jpg",
    "location": "107-0052 Tokyo Prefecture, Minato-ku, Akasaka 7-6-13, Japan",
    "percentOff": "10",
    "price": 109
   },{
    "name": "Hotel Listel Shinjuku",
-   "image": "../images/hotels/listel-hotel-shinjuku.jpg",
+   "image": "./assets/images/hotels/hotels/listel-hotel-shinjuku.jpg",
    "location": "160-0022 Tokyo Prefecture, Shinjuku-ku, Shinjuku 5-3-20 , Japan",
    "percentOff": "20",
    "price": 67
   },{
    "name": "Vessel Inn Ueno",
-   "image": "../images/hotels/Vessel-inn-Ueno.jpg",
+   "image": "./assets/images/hotels/hotels/Vessel-inn-Ueno.jpg",
    "location": "110-0013 Tokyo Prefecture, Taito-ku Iriya 1-25-6, Japan",
    "percentOff": "10",
    "price": 104
   },{
    "name": "Kyoto Granbell Hotel",
-   "image": "../images/hotels/Kyoto-Granbell-hotel.jpg",
+   "image": "./assets/images/hotels/hotels/Kyoto-Granbell-hotel.jpg",
    "location": "605-0802 Kyoto, Kyoto, Higashiyama-ku Yamatocho 27, Japan",
    "percentOff": "20",
    "price": 104
   },{
    "name": "Sotetsu Fresa Inn Osaka Shinsaibashi ",
-   "image": "../images/hotels/sotetsu-fresa-inn-osaka.jpg",
+   "image": "./assets/images/hotels/hotels/sotetsu-fresa-inn-osaka.jpg",
    "location": "542-0083 Osaka Prefecture, Osaka, Chuo-ku Higashishinsaibashi 1-12-23, Japan",
    "percentOff": "10",
    "price": "74"
   },{
    "name": "Doutonbori Crystal Hotel IV",
-   "image": "doutonbori-crystal-hotel.jpg",
+   "image": "./assets/images/hotels/doutonbori-crystal-hotel.jpg",
    "location": "542-0082 Osaka Prefecture, Osaka, Chuo-ku Shimanouchi 1-12-19, Japan",
    "percentOff": "10",
    "price": "56"

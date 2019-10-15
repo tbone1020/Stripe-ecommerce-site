@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { DealApiService } from '../../services/deals/deal-api.service';
 import { PackageDealItem } from '../../shared/models/package-deal-item.model';
+import { HotelDealList } from '../../shared/models/hotel-deals-item.model';
 
 @Component({
   selector: 'app-travel-deals',
@@ -10,32 +11,23 @@ import { PackageDealItem } from '../../shared/models/package-deal-item.model';
 export class TravelDealsComponent implements OnInit {
 
   packageDealsList: PackageDealItem[];
-  hotelDealsList: Object[];
+  hotelDealsList: HotelDealList[];
 
   constructor(private deals: DealApiService) {}
 
   ngOnInit() {
-    this.getPackageDealsList();
-    this.getHotelDealsList();
+    this.getPackageDeals();
+    this.getHotelDeals();
   }
 
-  async getPackageDealsList(): Promise<any> {
-      try {
-        const packageDeals = await this.deals.getDealList();
-        console.log("------------------");
-        console.log(packageDeals);
-        // this.packageDealsList = packageDeals;
-      } catch(e) {
-        console.log(e);
-      }
+  async getPackageDeals(): Promise<any> {
+    const packageDeals = await this.deals.getPackageDealList();
+    this.packageDealsList = packageDeals;
   }
 
-  async getHotelDealsList(): Promise<any> {
-      try {
-
-      } catch(e) {
-        console.log(e);
-      }
+  async getHotelDeals(): Promise<any> {
+    const hotelsDeals = await this.deals.getHotelDealList();
+    this.hotelDealsList = hotelsDeals;
   }
 
 }
