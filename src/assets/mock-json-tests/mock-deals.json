@@ -1,32 +1,32 @@
 {
   "deals": [{
    "description": "Tokyo: 10 days / 9 nights including hotel and flight for two",
-   "image": "shibuya-downtown.jpg",
+   "image": "../images/shibuya-downtown.jpg",
    "percentOff": "50",
    "price": 1500
   },{
    "description": "14 days in Kyoto including flight and hotel",
-   "image": "kyoto-tori-thumbnail-offer.png",
+   "image": "../images/kyoto-tori-thumbnail-offer.png",
    "percentOff": "50",
    "price": 100.99
   },{
    "description": "Discount on 2 week JR Rail Pass",
-   "image": "bullet-train.png",
+   "image": "../images/bullet-train.png",
    "percentOff": "15",
    "price": 393.99
   },{
    "description": "7 nights in Osaka & 7 nights in Kyoto including hotel and train tickets",
-   "image": "akihabara.jpg",
+   "image": "../images/akihabara.jpg",
    "percentOff": "50",
    "price": 1000
   },{
    "description": "7 nights at a Mt. Fuji Hotel.",
-   "image": "mt-fuji-thumbnail.png",
+   "image": "../images/mt-fuji-thumbnail.png",
    "percentOff": "30",
    "price": 1200.00
   },{
    "description": "3 hour guided tour around Tokyo",
-   "image": "shinjuku.jpg",
+   "image": "../images/shinjuku.jpg",
    "percentOff": "10",
    "price": 70.99
   }]

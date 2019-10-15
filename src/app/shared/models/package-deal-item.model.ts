@@ -5,12 +5,10 @@ export class PackageDealItem {
   public image: string;
 
   constructor(data?: any) {
-    console.log(`Data ---------------`);
-    console.log(data.image);
-    this.description = '';
-    this.price = '';
-    this.percentOff = '';
-    this.image = '';
+    this.description = data.description;
+    this.price = data.price;
+    this.percentOff = data.percentOff;
+    this.image = data.image;
 
   }
 }

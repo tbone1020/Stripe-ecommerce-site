@@ -17,9 +17,9 @@ export class DealApiService implements ADeal {
     return response.deals.map(deal => new PackageDealItem(deal));
   }
 
-  async getHotelDealList(): Promise<any> {
-    const response = await this.http.get(`${this.base}/hotel-deals.json`).toPromise();
-    return response;
-  }
+  // async getHotelDealList(): Promise<any> {
+  //   // const response = await this.http.get(`${this.base}/hotel-deals.json`).toPromise();
+  //   // return response;
+  // }
 
 }
