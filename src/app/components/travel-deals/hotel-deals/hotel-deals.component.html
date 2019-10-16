@@ -1,8 +1,12 @@
-<figure class="deal">
-  <div class="deal__percentage">{{ percentOff | addPercent }} off</div>
-  <div class="deal__image-holder">
-    <img class="deal__image" src="{{ image }}" alt="">
+<figure class="hotel">
+  <div class="hotel__percentage">{{ percentOff | addPercent }} off</div>
+  <div class="hotel__image-holder">
+    <img class="hotel__image" src="{{ image }}" alt="hotel">
   </div>
-  <figcaption class="deal__text">{{ description }}</figcaption>
-  <div class="deal__price">{{ price | price }}</div>
+  <h5 class="hotel__name">{{ name }}</h5>
+  <figcaption class="hotel__address">{{ location }}</figcaption>
+  <div class="hotel__price">
+    {{ price | price }}
+    <span class='hotel__per-night'>per night</span>
+  </div>
 </figure>

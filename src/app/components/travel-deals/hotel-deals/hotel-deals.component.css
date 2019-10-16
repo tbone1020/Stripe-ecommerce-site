@@ -1,0 +1,44 @@
+.hotel {
+  position: relative;
+  padding-bottom: 30px;
+}
+.hotel__name {
+  font-weight: bold;
+  padding-top: 15px;
+  font-size: 20px;
+}
+.hotel__image-holder {
+  max-height: 220px;
+  overflow: hidden;
+}
+.hotel__image {
+  width: 100%;
+}
+.hotel__percentage {
+  position: absolute;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.6);
+  font-size: 24px;
+  padding: 14px;
+  color: white;
+  top: 0;
+  left: 0;
+}
+.hotel__address {
+  font-size: 16px;
+  padding: 15px 0 10px;
+  min-height: 40px;
+}
+.hotel__price {
+  font-weight: bold;
+  color: #10a8e5;
+  font-size: 26px;
+}
+
+.hotel__per-night {
+  font-size: 13px;
+  text-decoration: none;
+  color: #4c505f;
+  top: -3px;
+  position: relative;
+}
