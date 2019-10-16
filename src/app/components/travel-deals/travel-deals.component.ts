@@ -26,8 +26,9 @@ export class TravelDealsComponent implements OnInit {
   }
 
   async getHotelDeals(): Promise<any> {
-    const hotelsDeals = await this.deals.getHotelDealList();
-    this.hotelDealsList = hotelsDeals;
+    const hotelDeals = await this.deals.getHotelDealList();
+    console.log(hotelDeals)
+    this.hotelDealsList = hotelDeals;
   }
 
 }

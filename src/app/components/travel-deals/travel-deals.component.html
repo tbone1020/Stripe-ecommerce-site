@@ -10,5 +10,10 @@
 </section>
 <h4 class="top-deals__sub-header">Hotel Package Deals</h4>
 <section class="deals__top-deals">
-
+    <app-hotel-deals *ngFor="let deal of hotelDealsList"
+      [name]="deal.name"
+      [price]="deal.price"
+      [location]="deal.location"
+      [percentOff]="deal.percentOff"
+      [image]="deal.image"></app-hotel-deals>
 </section>

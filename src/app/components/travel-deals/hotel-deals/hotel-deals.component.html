@@ -1,1 +1,12 @@
-<p>hotel-deals works!</p>
+<figure class="hotel">
+  <div class="hotel__percentage">{{ percentOff | addPercent }} off</div>
+  <div class="hotel__image-holder">
+    <img class="hotel__image" src="{{ image }}" alt="hotel">
+  </div>
+  <h5 class="hotel__name">{{ name }}</h5>
+  <figcaption class="hotel__address">{{ location }}</figcaption>
+  <div class="hotel__price">
+    {{ price | price }}
+    <span class='hotel__per-night'>per night</span>
+  </div>
+</figure>

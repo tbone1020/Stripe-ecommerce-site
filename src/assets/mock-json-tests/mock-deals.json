@@ -6,12 +6,12 @@
    "price": 1500
   },{
    "description": "14 days in Kyoto including flight and hotel",
-   "image": "./assets/images/package-deals/kyoto-tori-thumbnail-offer.png",
+   "image": "./assets/images/package-deals/kyoto-tori-thumbnail.png",
    "percentOff": "50",
-   "price": 100.99
+   "price": 1400.99
   },{
    "description": "Discount on 2 week JR Rail Pass",
-   "image": "./assets/images/package-deals/bullet-train.png",
+   "image": "./assets/images/package-deals/bullet-train-mt-fuji.jpeg",
    "percentOff": "15",
    "price": 393.99
   },{
