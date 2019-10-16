@@ -1,5 +1,6 @@
 .deal {
   position: relative;
+  padding-bottom: 30px;
 }
 .deal__image-holder {
   max-height: 220px;
@@ -20,10 +21,12 @@
 }
 .deal__text {
   font-size: 20px;
-  padding: 15px 0;
+  padding: 15px 0 10px;
+  min-height: 40px;
 }
 .deal__price {
   font-weight: bold;
-  font-size: 17px;
+  color: #10a8e5;
+  font-size: 26px;
   text-decoration: underline;
 }

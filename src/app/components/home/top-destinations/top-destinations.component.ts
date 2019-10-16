@@ -15,7 +15,7 @@ export class TopDestinationsComponent implements OnInit {
       altText: "downtown shinjuku",
       name: "Tokyo"
     },{
-      imagePath: "mt-fuji-thumbnail.png",
+      imagePath: "package-deals/mt-fuji-thumbnail.png",
       altText: "mount fuji",
       name: "Mt. Fuji"
     },{
